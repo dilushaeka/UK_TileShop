@@ -1,6 +1,6 @@
 package lk.ijse.UkTileShopManage.dao;
 
-import db.DBConnection;
+import lk.ijse.UkTileShopManage.db.DBConnection;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

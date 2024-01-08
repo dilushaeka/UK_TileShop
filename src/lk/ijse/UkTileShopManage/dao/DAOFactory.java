@@ -1,6 +1,6 @@
 package lk.ijse.UkTileShopManage.dao;
 
-import dao.custom.impl.*;
+import lk.ijse.UkTileShopManage.dao.custom.impl.*;
 
 public class DAOFactory {
     private static DAOFactory daoFactory;

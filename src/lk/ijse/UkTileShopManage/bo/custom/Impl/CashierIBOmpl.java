@@ -1,10 +1,10 @@
 package lk.ijse.UkTileShopManage.bo.custom.Impl;
 
-import bo.custom.CashierBO;
-import dao.DAOFactory;
-import dao.custom.CashierDAO;
-import dto.CashierDTO;
-import entity.Cashier;
+import lk.ijse.UkTileShopManage.bo.custom.CashierBO;
+import lk.ijse.UkTileShopManage.dao.DAOFactory;
+import lk.ijse.UkTileShopManage.dao.custom.CashierDAO;
+import lk.ijse.UkTileShopManage.dto.CashierDTO;
+import lk.ijse.UkTileShopManage.entity.Cashier;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
