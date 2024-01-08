@@ -1,7 +1,7 @@
 package lk.ijse.UkTileShopManage.bo.custom;
 
-import bo.SuperBO;
-import dto.CashierDTO;
+import lk.ijse.UkTileShopManage.bo.SuperBO;
+import lk.ijse.UkTileShopManage.dto.CashierDTO;
 
 import java.sql.SQLException;
 
