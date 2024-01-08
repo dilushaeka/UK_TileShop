@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="root1" prefHeight="938.0" prefWidth="1428.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.dashboardController">
+<AnchorPane fx:id="root1" prefHeight="938.0" prefWidth="1428.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.UkTileShopManage.controller.dashboardController">
    <children>
       <Pane prefHeight="81.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
       <Pane layoutY="849.0" prefHeight="89.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
@@ -95,7 +95,7 @@
                <graphic>
                   <ImageView fitHeight="43.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../resources/About.png" />
+                        <Image url="@../resources/help.png" />
                      </image>
                   </ImageView>
                </graphic>
