@@ -1,12 +1,12 @@
 package lk.ijse.UkTileShopManage.controller;
 
-import bo.BOFactory;
-import bo.custom.CashierBO;
-import bo.custom.Impl.CashierIBOmpl;
+import lk.ijse.UkTileShopManage.bo.BOFactory;
+import lk.ijse.UkTileShopManage.bo.custom.CashierBO;
+import lk.ijse.UkTileShopManage.bo.custom.Impl.CashierIBOmpl;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXDatePicker;
 import com.jfoenix.controls.JFXTextField;
-import dto.CashierDTO;
+import lk.ijse.UkTileShopManage.dto.CashierDTO;
 import javafx.collections.ObservableList;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.event.ActionEvent;
