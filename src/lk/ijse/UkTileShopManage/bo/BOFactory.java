@@ -1,6 +1,6 @@
 package lk.ijse.UkTileShopManage.bo;
 
-import bo.custom.Impl.*;
+import lk.ijse.UkTileShopManage.bo.custom.Impl.*;
 
 public class BOFactory {
     private static BOFactory boFactory;

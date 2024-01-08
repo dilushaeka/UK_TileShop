@@ -1,39 +1,32 @@
 package lk.ijse.UkTileShopManage.controller;
 
-import animatefx.animation.FadeIn;
-import lk.ijse.UkTileShopManage.bo.BOFactory;
-import lk.ijse.UkTileShopManage.bo.BOFactory;
-import lk.ijse.UkTileShopManage.bo.custom.LoginBO;
-import lk.ijse.UkTileShopManage.bo.custom.Impl.LoginBOImpl;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
-import lk.ijse.UkTileShopManage.dto.CashierDTO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 import javafx.util.Duration;
+import lk.ijse.UkTileShopManage.bo.custom.CashierBO;
+import lk.ijse.UkTileShopManage.bo.custom.Impl.LoginBOImpl;
+import lk.ijse.UkTileShopManage.bo.custom.LoginBO;
+import lk.ijse.UkTileShopManage.dto.CashierDTO;
 import tray.animations.AnimationType;
 import tray.notification.NotificationType;
 import tray.notification.TrayNotification;
 
 import java.io.IOException;
-import java.net.URL;
 import java.sql.SQLException;
-import java.util.ResourceBundle;
 import java.util.regex.Pattern;
 
 public class LoginFormController {
     public JFXTextField txtUserName;
     public JFXPasswordField txtPassword;
     public AnchorPane root;
-    CashierBO cashierBO;
+    CashierBO  cashierBO;
 
 
     public void LoginOnAction() throws IOException {
