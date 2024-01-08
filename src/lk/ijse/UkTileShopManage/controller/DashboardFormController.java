@@ -1,8 +1,8 @@
 package lk.ijse.UkTileShopManage.controller;
 
 
-import db.DBConnection;
-import dto.PaymentDTO;
+import lk.ijse.UkTileShopManage.db.DBConnection;
+import lk.ijse.UkTileShopManage.dto.PaymentDTO;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
