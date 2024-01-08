@@ -1,10 +1,10 @@
 package lk.ijse.UkTileShopManage.bo.custom.Impl;
 
-import bo.custom.CustomerBO;
-import dao.DAOFactory;
-import dao.custom.CustomerDAO;
-import dto.CustomerDTO;
-import entity.Customer;
+import lk.ijse.UkTileShopManage.bo.custom.CustomerBO;
+import lk.ijse.UkTileShopManage.dao.DAOFactory;
+import lk.ijse.UkTileShopManage.dao.custom.CustomerDAO;
+import lk.ijse.UkTileShopManage.dto.CustomerDTO;
+import lk.ijse.UkTileShopManage.entity.Customer;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

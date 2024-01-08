@@ -1,7 +1,7 @@
 package lk.ijse.UkTileShopManage.bo.custom;
 
-import bo.SuperBO;
-import dto.CustomerDTO;
+import lk.ijse.UkTileShopManage.bo.SuperBO;
+import lk.ijse.UkTileShopManage.dto.CustomerDTO;
 import javafx.collections.ObservableList;
 
 import java.sql.SQLException;

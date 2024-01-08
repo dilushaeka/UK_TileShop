@@ -1,7 +1,7 @@
 package lk.ijse.UkTileShopManage.dao.custom;
 
-import dao.CrudDAO;
-import entity.Customer;
+import lk.ijse.UkTileShopManage.dao.CrudDAO;
+import lk.ijse.UkTileShopManage.entity.Customer;
 
 import java.sql.SQLException;
 

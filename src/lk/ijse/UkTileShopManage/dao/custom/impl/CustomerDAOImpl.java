@@ -1,8 +1,8 @@
 package lk.ijse.UkTileShopManage.dao.custom.impl;
 
-import dao.CrudUtil;
-import dao.custom.CustomerDAO;
-import entity.Customer;
+import lk.ijse.UkTileShopManage.dao.CrudUtil;
+import lk.ijse.UkTileShopManage.dao.custom.CustomerDAO;
+import lk.ijse.UkTileShopManage.entity.Customer;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

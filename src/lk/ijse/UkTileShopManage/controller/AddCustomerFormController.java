@@ -1,11 +1,11 @@
 package lk.ijse.UkTileShopManage.controller;
 
-import bo.BOFactory;
-import bo.custom.CustomerBO;
+import lk.ijse.UkTileShopManage.bo.BOFactory;
+import lk.ijse.UkTileShopManage.bo.custom.CustomerBO;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
-import dto.CustomerDTO;
+import lk.ijse.UkTileShopManage.dto.CustomerDTO;
 import javafx.collections.ObservableList;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
