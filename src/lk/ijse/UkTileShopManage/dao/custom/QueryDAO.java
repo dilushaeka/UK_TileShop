@@ -1,7 +1,7 @@
 package lk.ijse.UkTileShopManage.dao.custom;
 
-import dao.SuperDAO;
-import entity.CustomEntity;
+import lk.ijse.UkTileShopManage.dao.SuperDAO;
+import lk.ijse.UkTileShopManage.entity.CustomEntity;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
