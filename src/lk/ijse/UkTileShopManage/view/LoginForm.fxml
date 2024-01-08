@@ -20,9 +20,9 @@
                      <Font size="18.0" />
                   </font>
                </Label>
-               <JFXTextField fx:id="txtUserName" focusColor="#4ffbca" labelFloat="true" layoutX="142.0" layoutY="202.0" prefHeight="40.0" prefWidth="269.0" promptText="User Name" text="dilusha" unFocusColor="BLACK" AnchorPane.leftAnchor="142.0" AnchorPane.rightAnchor="117.0" />
-               <JFXPasswordField fx:id="txtPassword" focusColor="#4ffbca" labelFloat="true" layoutX="139.0" layoutY="293.0" prefHeight="40.0" prefWidth="269.0" promptText="Password" text="1234" unFocusColor="BLACK" AnchorPane.leftAnchor="139.0" AnchorPane.rightAnchor="120.0" />
-               <JFXButton fx:id="btnSignIn" buttonType="RAISED" layoutX="159.0" layoutY="406.0" onAction="#LoginOnAction" prefHeight="67.0" prefWidth="229.0" ripplerFill="WHITE" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c) linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c); -fx-background-radius: 30;" text="Sign In" textFill="WHITE">
+               <JFXTextField fx:id="txtUserName" focusColor="#4ffbca" labelFloat="true" layoutX="142.0" layoutY="202.0" prefHeight="40.0" prefWidth="269.0" promptText="User Name" text="thilina" unFocusColor="BLACK" AnchorPane.leftAnchor="142.0" AnchorPane.rightAnchor="117.0" />
+               <JFXPasswordField fx:id="txtPassword" focusColor="#4ffbca" labelFloat="true" layoutX="139.0" layoutY="293.0" prefHeight="40.0" prefWidth="269.0" promptText="Password" text="2259" unFocusColor="BLACK" AnchorPane.leftAnchor="139.0" AnchorPane.rightAnchor="120.0" />
+               <JFXButton fx:id="btnSignIn" buttonType="RAISED" layoutX="159.0" layoutY="406.0" onAction="#LoginOnAction" prefHeight="67.0" prefWidth="229.0" ripplerFill="WHITE" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c) linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c) linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c) linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c); -fx-background-radius: 30;" text="Sign In">
                   <font>
                      <Font name="System Bold" size="22.0" />
                   </font>
@@ -42,7 +42,7 @@
                      <Font name="System Bold" size="30.0" />
                   </font>
                </Label>
-               <ImageView fitHeight="98.0" fitWidth="94.0" layoutX="34.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <ImageView fitHeight="101.0" fitWidth="105.0" layoutX="44.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
                   <image>
                      <Image url="@../resources/logo.png" />
                   </image>
@@ -61,14 +61,14 @@
                <DropShadow />
             </effect>
          </AnchorPane>
-         <AnchorPane layoutX="14.0" layoutY="-26.0" prefHeight="714.0" prefWidth="334.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c) linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c); -fx-background-radius: 1em;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="-26.0">
+         <AnchorPane layoutX="14.0" layoutY="-26.0" prefHeight="714.0" prefWidth="334.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c) linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c) linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c) linear-gradient(to bottom left, #c91306,  #fcf8f7,#0d0c0c); -fx-background-radius: 1em;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="-26.0">
             <effect>
                <DropShadow />
             </effect>
             <children>
-               <ImageView fitHeight="288.0" fitWidth="223.0" layoutX="66.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <ImageView fitHeight="191.0" fitWidth="194.0" layoutX="70.0" layoutY="191.0" pickOnBounds="true" preserveRatio="true">
                   <image>
-                     <Image url="@../resources/DDWD.png" />
+                     <Image url="@../resources/era.png" />
                   </image>
                </ImageView>
             </children>

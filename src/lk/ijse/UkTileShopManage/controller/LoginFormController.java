@@ -1,25 +1,32 @@
 package lk.ijse.UkTileShopManage.controller;
 
+import animatefx.animation.FadeIn;
+import lk.ijse.UkTileShopManage.bo.BOFactory;
+import lk.ijse.UkTileShopManage.bo.BOFactory;
+import lk.ijse.UkTileShopManage.bo.custom.LoginBO;
+import lk.ijse.UkTileShopManage.bo.custom.Impl.LoginBOImpl;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
 import lk.ijse.UkTileShopManage.dto.CashierDTO;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
-import lk.ijse.UkTileShopManage.service.custom.CashierBO;
-import lk.ijse.UkTileShopManage.service.custom.Impl.LoginBOImpl;
-import lk.ijse.UkTileShopManage.service.custom.LoginBO;
 import tray.animations.AnimationType;
 import tray.notification.NotificationType;
 import tray.notification.TrayNotification;
 
 import java.io.IOException;
+import java.net.URL;
 import java.sql.SQLException;
+import java.util.ResourceBundle;
 import java.util.regex.Pattern;
 
 public class LoginFormController {
@@ -33,7 +40,7 @@ public class LoginFormController {
 
         String userName = txtUserName.getText().trim();
         String password = txtPassword.getText().trim();
-        if (Pattern.compile("^(dilusha)$").matcher(userName).matches()) {
+        if (Pattern.compile("^(thilina)$").matcher(userName).matches()) {
 
 
         } else {
@@ -42,21 +49,21 @@ public class LoginFormController {
 
 
         }
-        if (Pattern.compile("^(1234)$").matcher(userName).matches()) {
+        if (Pattern.compile("^(2259)$").matcher(userName).matches()) {
         } else {
             txtPassword.setFocusColor(Paint.valueOf("red"));
             txtPassword.requestFocus();
 
         }
         if (userName.length() > 0 && password.length() > 0) {
-            if (userName.equalsIgnoreCase("dilusha")
-                    && password.equals("1234")) {
+            if (userName.equalsIgnoreCase("thilina")
+                    && password.equals("2259")) {
 
                 Stage window = (Stage) this.root.getScene().getWindow();
-                window.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("../view/Dashboard.fxml"))));
+                window.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("/view/Dashboard.fxml"))));
                 window.centerOnScreen();
                 String tilte = "Sign In";
-                String message = "WELCOME TO UK TILE HOUSE MANEGMET SYSTEM ";
+                String message = "WELCOME TO KITHSIRI TILES MANEGMET SYSTEM ";
                 tray.notification.TrayNotification tray = new TrayNotification();
                 AnimationType type = AnimationType.POPUP;
                 tray.setAnimationType(type);
@@ -77,9 +84,10 @@ public class LoginFormController {
                             cashierDTO.getCastPassword().equals(txtPassword.getText())) {
 
                         Stage window = (Stage) this.root.getScene().getWindow();
+//                        window.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("/view/CashierForm.fxml"))));
                         FXMLLoader fxmlLoader = new FXMLLoader(this.getClass().getResource("../view/CashierForm.fxml"));
                         Parent parent =  fxmlLoader.load();
-                        lk.ijse.UkTileShopManage.controller.CashierFormController controller = fxmlLoader.getController();
+                        CashierFormController controller = fxmlLoader.getController();
                         System.out.println("sending data");
                         controller.setCashierID(cashierDTO.getCastID());
                         window.setScene(new Scene(parent));
