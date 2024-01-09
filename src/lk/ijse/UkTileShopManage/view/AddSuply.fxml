@@ -47,8 +47,8 @@
    </JFXButton>
    <ImageView fitHeight="191.0" fitWidth="223.0" layoutX="992.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
       <image>
-         <Image url="@../resources/BlackLogo.png" />
+         <Image url="@../resources/DDWD.png" />
       </image>
    </ImageView>
-   <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
+   <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
 </AnchorPane>

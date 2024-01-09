@@ -11,14 +11,14 @@
 
 <AnchorPane fx:id="root1" prefHeight="938.0" prefWidth="1428.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.UkTileShopManage.controller.dashboardController">
    <children>
-      <Pane prefHeight="81.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
-      <Pane layoutY="849.0" prefHeight="89.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
+      <Pane prefHeight="81.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
+      <Pane layoutY="849.0" prefHeight="89.0" prefWidth="30.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
       <Pane fx:id="context" layoutX="197.0" layoutY="25.0" prefHeight="908.0" prefWidth="1226.0" />
-      <VBox alignment="TOP_CENTER" prefHeight="938.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0); -fx-background-radius: 30;">
+      <VBox alignment="TOP_CENTER" prefHeight="938.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c); -fx-background-radius: 30;">
          <children>
-            <ImageView fitHeight="147.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="147.0" fitWidth="198.0" pickOnBounds="true">
                <image>
-                  <Image url="@../resources/logo2.png" />
+                  <Image url="@../resources/DDWD.png" />
                </image>
             </ImageView>
             <JFXButton fx:id="dtnDashBoard" buttonType="RAISED" onAction="#DashBoardOnAction" prefHeight="87.0" prefWidth="184.0" text="DASHBOARD  " textFill="WHITE">
@@ -48,7 +48,7 @@
             <JFXButton buttonType="RAISED" onAction="#btnReportOnAction" prefHeight="90.0" prefWidth="185.0" text="ALL REPORTS " textFill="WHITE">
                <graphic>
                   <ImageView fitHeight="28.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
-                     <Image url="@../resources/reports.png"/>
+                     <Image url="@../resources/reports.png" />
                   </ImageView>
                </graphic>
                <font>
@@ -95,7 +95,7 @@
                <graphic>
                   <ImageView fitHeight="43.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../resources/help.png" />
+                        <Image url="@../resources/icons8-info-64.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -105,7 +105,7 @@
             </JFXButton>
             <Pane prefHeight="85.0" prefWidth="185.0">
                <children>
-                  <JFXButton buttonType="RAISED" layoutY="8.0" onAction="#btnLogOut" prefHeight="5.0" prefWidth="185.0" style="-fx-background-color: black;" text="LOGOUT" textFill="WHITE">
+                  <JFXButton buttonType="RAISED" layoutX="7.0" layoutY="8.0" onAction="#btnLogOut" prefHeight="5.0" prefWidth="185.0" style="-fx-background-color: black;" text="LOGOUT" textFill="WHITE">
                      <font>
                         <Font name="System Bold" size="32.0" />
                      </font>

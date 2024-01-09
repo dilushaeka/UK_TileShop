@@ -136,6 +136,7 @@ public class AddCashierFormController implements Initializable {
             tray.setNotificationType(NotificationType.NOTICE);
             tray.showAndDismiss(Duration.millis(3000));
         }
+        clearCashier();
         //Customer Add Is Over(With Notification)
     }
 
@@ -205,6 +206,7 @@ public class AddCashierFormController implements Initializable {
                 tray.setMessage(message);
                 tray.setNotificationType(NotificationType.SUCCESS);
                 loadAllCashier();
+
             } else {
                 (new Alert(Alert.AlertType.ERROR, "Cashier Not Update", new ButtonType[]{ButtonType.OK})).show();
                 tilte = "Update Un Successful";
@@ -219,6 +221,7 @@ public class AddCashierFormController implements Initializable {
             e.printStackTrace();
         }
         //Customer Update Is Over(With Notification)
+        //clearCashier();
 
     }
 
@@ -252,6 +255,7 @@ public class AddCashierFormController implements Initializable {
             e1.printStackTrace();
         }
         //Customer Delete Is Over(With Notification)
+        clearCashier();
     }
 
 
@@ -265,4 +269,14 @@ public class AddCashierFormController implements Initializable {
         txtPassword.setText(c.getCastPassword());
 
     }
+
+    public void clearCashier(){
+        txtCashierAddress.clear();
+        txtPassword.clear();
+        txtLogin.clear();
+        txtCashierName.clear();
+        txtCashierID.clear();
+        txtCashierBirthDay.setValue(LocalDate.now());
+    }
+
 }

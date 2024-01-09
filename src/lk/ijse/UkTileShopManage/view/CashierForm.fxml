@@ -14,11 +14,11 @@
       <Pane layoutY="849.0" prefHeight="89.0" prefWidth="30.0" style="-fx-background-color: #6c5ce7;" />
       <Pane prefHeight="89.0" prefWidth="30.0" style="-fx-background-color: #d300f0;" />
       <Pane fx:id="context" layoutX="197.0" layoutY="12.0" prefHeight="872.0" prefWidth="1226.0" />
-      <VBox alignment="TOP_CENTER" prefHeight="938.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0); -fx-background-radius: 30;">
+      <VBox alignment="TOP_CENTER" prefHeight="938.0" prefWidth="185.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c); -fx-background-radius: 30;">
          <children>
             <ImageView fitHeight="147.0" fitWidth="164.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../resources/logo2.png" />
+                  <Image url="@../resources/DDWD.png" />
                </image>
             </ImageView>
             <JFXButton buttonType="RAISED" onAction="#btnPlaceOrderOnAction" prefHeight="108.0" prefWidth="184.0" text="PLACE ORDER  " textFill="WHITE" VBox.vgrow="SOMETIMES">
@@ -58,7 +58,7 @@
                <graphic>
                   <ImageView fitHeight="41.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../resources/About.png" />
+                        <Image url="@../resources/icons8-info-64.png" />
                      </image>
                   </ImageView>
                </graphic>

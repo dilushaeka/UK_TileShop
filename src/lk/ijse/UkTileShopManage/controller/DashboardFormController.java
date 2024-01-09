@@ -1,8 +1,6 @@
 package lk.ijse.UkTileShopManage.controller;
 
 
-import lk.ijse.UkTileShopManage.db.DBConnection;
-import lk.ijse.UkTileShopManage.dto.PaymentDTO;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -10,6 +8,9 @@ import javafx.scene.chart.AreaChart;
 import javafx.scene.chart.PieChart;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.Label;
+import javafx.scene.layout.Pane;
+import lk.ijse.UkTileShopManage.db.DBConnection;
+import lk.ijse.UkTileShopManage.dto.PaymentDTO;
 
 import java.net.URL;
 import java.sql.ResultSet;
@@ -25,6 +26,7 @@ public class DashboardFormController implements Initializable {
     public Label SoldItem;
     public PaymentDTO paymentDTOS;
     public AreaChart areaChart;
+    public Pane DashPane;
 
     @FXML
     private javafx.scene.chart.PieChart PieChart;
@@ -150,5 +152,5 @@ public class DashboardFormController implements Initializable {
     }
 
 
-    }
+}
 

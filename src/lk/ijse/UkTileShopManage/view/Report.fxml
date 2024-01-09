@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="908.0" prefWidth="1226.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportController">
+<AnchorPane prefHeight="908.0" prefWidth="1226.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.UkTileShopManage.controller.ReportController">
    <children>
       <TableView layoutX="14.0" layoutY="465.0" prefHeight="425.0" prefWidth="1201.0" stylesheets="@../css/fullpackstyling.css">
         <columns>
@@ -24,10 +24,10 @@
       </TableView>
       <ImageView fitHeight="191.0" fitWidth="223.0" layoutX="992.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../resources/BlackLogo.png" />
+            <Image url="@../resources/DDWD.png" />
          </image>
       </ImageView>
-      <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
+      <Pane layoutX="-1.0" layoutY="-3.0" prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
       <JFXComboBox labelFloat="true" layoutX="89.0" layoutY="159.0" prefHeight="31.0" prefWidth="626.0" promptText="Select Report" />
       <DatePicker layoutX="80.0" layoutY="258.0" />
       <JFXButton layoutX="80.0" layoutY="357.0" prefHeight="45.0" prefWidth="144.0" style="-fx-background-color: #0fb9b1;" text="Genarate Report">

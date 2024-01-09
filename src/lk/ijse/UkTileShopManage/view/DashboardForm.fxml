@@ -101,7 +101,7 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </GNButton>
-      <Pane prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
+      <Pane prefHeight="78.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
       <Label layoutX="76.0" layoutY="289.0" prefHeight="40.0" prefWidth="50.0" text="RS.">
          <font>
             <Font name="Arial Black" size="27.0" />
@@ -115,7 +115,7 @@
             <Image url="@../resources/sales.png" />
          </image>
       </ImageView>
-      <Pane layoutY="392.0" prefHeight="40.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to right top, #6c5ce7, #8554ed, #9f48f1, #b935f2, #d300f0);" />
+      <Pane layoutY="392.0" prefHeight="40.0" prefWidth="1226.0" style="-fx-background-color: linear-gradient(to bottom left, #c91306,  #7d7777,#0d0c0c);" />
       <Label fx:id="TotalSales" layoutX="133.0" layoutY="289.0" prefHeight="40.0" prefWidth="147.0" text="0">
          <font>
             <Font name="Arial Black" size="27.0" />

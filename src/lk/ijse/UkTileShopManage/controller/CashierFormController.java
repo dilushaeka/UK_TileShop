@@ -25,7 +25,7 @@ public class CashierFormController implements Initializable {
     private void setUi(String location) throws IOException {
         context.getChildren().clear();
         context.getChildren().add(FXMLLoader.load(this.getClass().
-                getResource("/view/" + location + ".fxml")));
+                getResource("/lk/ijse/UkTileShopManage/view/" + location + ".fxml")));
     }
 
     @Override

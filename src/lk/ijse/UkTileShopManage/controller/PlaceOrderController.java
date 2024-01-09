@@ -133,7 +133,9 @@ public class PlaceOrderController implements Initializable {
         try {
             ObservableList<ItemDTO> itemDTOS = itemBO.getAllItem();
             for (ItemDTO dto : itemDTOS) {
-                allItem.add(dto.getItemCode() + " " + dto.getDescription());
+                allItem.add(dto.getItemCode()
+                        //+ " " + dto.getDescription()
+                );
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

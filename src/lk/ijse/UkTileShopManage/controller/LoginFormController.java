@@ -1,5 +1,6 @@
 package lk.ijse.UkTileShopManage.controller;
 
+import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXPasswordField;
 import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
@@ -26,6 +27,10 @@ public class LoginFormController {
     public JFXTextField txtUserName;
     public JFXPasswordField txtPassword;
     public AnchorPane root;
+    public AnchorPane loginRoot;
+    public JFXButton btnSignIn;
+    public JFXButton btnCLose;
+
     CashierBO  cashierBO;
 
 
@@ -49,14 +54,18 @@ public class LoginFormController {
 
         }
         if (userName.length() > 0 && password.length() > 0) {
-            if (userName.equalsIgnoreCase("thilina")
-                    && password.equals("2259")) {
+            if (userName.equalsIgnoreCase("dilusha")
+                    && password.equals("1234")) {
+
+
+                //FXMLLoader loader = new FXMLLoader(this.getClass().getResource("../view/Dashboard.fxml"));
 
                 Stage window = (Stage) this.root.getScene().getWindow();
-                window.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("/view/Dashboard.fxml"))));
+                window.setScene(new Scene(FXMLLoader.load(this.getClass().getResource("/lk/ijse/UkTileShopManage/view/Dashboard.fxml"))));
                 window.centerOnScreen();
+
                 String tilte = "Sign In";
-                String message = "WELCOME TO KITHSIRI TILES MANEGMET SYSTEM ";
+                String message = "WELCOME TO UK TILES MANAGEMENT SYSTEM ";
                 tray.notification.TrayNotification tray = new TrayNotification();
                 AnimationType type = AnimationType.POPUP;
                 tray.setAnimationType(type);

@@ -1,10 +1,12 @@
 package lk.ijse.UkTileShopManage.controller;
 
 
-import animatefx.animation.FadeIn;
+import animatefx.animation.*;
+import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -14,12 +16,14 @@ import java.util.ResourceBundle;
 
 public class dashboardController implements Initializable {
     public Pane context;
+    public JFXButton dtnDashBoard;
+    public AnchorPane root1;
 
 
     private void setUi(String location) throws IOException {
         context.getChildren().clear();
         context.getChildren().add(FXMLLoader.load(this.getClass().
-                getResource("/view/" + location + ".fxml")));
+                getResource("/lk/ijse/UkTileShopManage/view/" + location + ".fxml")));
     }
 
     public void DashBoardOnAction() throws IOException {
